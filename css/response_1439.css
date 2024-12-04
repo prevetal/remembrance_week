@@ -1,0 +1,297 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .logos
+    {
+        width: 348px;
+
+        gap: 48px;
+    }
+
+
+    .first_section .logos ~ .logos
+    {
+        gap: 40px;
+    }
+
+
+    .first_section .head .row + .row
+    {
+        margin-top: 8px;
+
+        gap: 30px;
+    }
+
+
+    .first_section .date,
+    .first_section .name
+    {
+        font-size: 20px;
+    }
+
+
+    .first_section .logo2 img
+    {
+        width: 128px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 68px;
+
+        letter-spacing: .68px;
+    }
+
+
+    .first_section .period
+    {
+        width: 1188px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+        gap: 18px;
+    }
+
+
+    .first_section .period .start,
+    .first_section .period .current
+    {
+        font-size: 64px;
+
+        min-width: 140px;
+    }
+
+    .first_section .period .duration
+    {
+        font-size: 30px;
+    }
+
+
+    .first_section .links
+    {
+        margin-top: 41px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .action_block .pre_title
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .action_block .btn
+    {
+        margin-top: 56px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why
+    {
+        padding: 60px 0 80px;
+    }
+
+
+    .why .swiper
+    {
+        width: 687px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-------------------------
+        Become co-organizer
+    -------------------------*/
+    .become_co-organizer
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .become_co-organizer .col_right
+    {
+        margin-right: 60px;
+    }
+
+
+    .become_co-organizer .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .become_co-organizer .steps
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Charity
+    -------------*/
+    .charity
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .partners .row
+    {
+        gap: 40px;
+    }
+
+
+
+    /*------------
+        News
+    ------------*/
+    .news .item .date,
+    .news .item .tag
+    {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+
+    footer .data
+    {
+        margin-bottom: 60px;
+        padding-left: 0;
+    }
+
+
+    footer .data img
+    {
+        display: none;
+    }
+
+
+    footer .data .title
+    {
+        font-size: 68px;
+
+        text-align: center;
+        letter-spacing: .68px;
+    }
+
+
+    footer .data .period
+    {
+        width: 1188px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+        gap: 18px;
+    }
+
+
+    footer .data .period .start,
+    footer .data .period .current
+    {
+        font-size: 64px;
+
+        min-width: 140px;
+    }
+
+    footer .data .period .duration
+    {
+        font-size: 30px;
+    }
+
+
+
+    footer .links,
+    footer .contacts
+    {
+        width: 280px;
+        margin-left: 32px;
+    }
+}
