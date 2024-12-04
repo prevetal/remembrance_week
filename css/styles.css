@@ -897,6 +897,272 @@ button
 
 
 
+/*----------------
+    Key events
+----------------*/
+.key_events .block_head
+{
+    margin-bottom: 32px;
+}
+
+
+.key_events .tabs
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    margin-bottom: 21px;
+
+    gap: 32px;
+}
+
+
+.key_events .tabs .btn,
+.key_events .mob_tab_btn
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 24px;
+
+    transition: none;
+    text-align: left;
+    letter-spacing: 0;
+
+    color: var(--text_color);
+    border: none;
+    border-radius: 12px;
+    background: #fff;
+
+    gap: 8px;
+}
+
+
+.key_events .mob_tab_btn
+{
+    display: none;
+
+    padding-bottom: 40px;
+
+    border: 1px solid #b1b1b9;
+}
+
+
+.key_events .mob_tab_btn.last
+{
+    padding-bottom: 24px;
+}
+
+
+.key_events .tabs .btn:after
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 0;
+    margin-top: -9px;
+
+    content: '';
+    transition: height .35s linear;
+    pointer-events: none;
+
+    background: #fff;
+}
+
+
+.key_events .tabs .type,
+.key_events .mob_tab_btn .type
+{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+
+    text-transform: uppercase;
+
+    color: #5c5d62;
+}
+
+
+.key_events .tabs .name,
+.key_events .mob_tab_btn .name
+{
+    font-family: var(--font_family2);
+    font-size: 32px;
+    line-height: calc(100% + 4px);
+
+    text-transform: uppercase;
+}
+
+
+.key_events .tabs .btn.active
+{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.key_events .tabs .btn.active:after
+{
+    height: 40px;
+}
+
+
+.key_events .tab_content
+{
+    display: flex;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.key_events .tab_content.active
+{
+    overflow: hidden;
+
+    border: 2px solid #ca9e67;
+    border-radius: 12px;
+    background: #fff;
+}
+
+
+.key_events .data
+{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(50% - 12px);
+    padding: 40px 32px;
+}
+
+
+.key_events .data .head
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: 32px;
+
+    gap: 4px;
+}
+
+
+.key_events .data .date,
+.key_events .data .location
+{
+    font-size: 13px;
+    line-height: 18px;
+
+    padding: 8px 12px 6px;
+
+    letter-spacing: -.195px;
+
+    color: #000;
+    border-radius: 28px;
+    background: #e9e9e9;
+}
+
+
+.key_events .data .type
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+
+    margin-bottom: 12px;
+
+    text-transform: uppercase;
+
+    color: #5c5d62;
+}
+
+
+.key_events .data .name
+{
+    font-family: var(--font_family2);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: calc(100% + 8px);
+
+    text-transform: uppercase;
+
+    color: #ca9e67;
+}
+
+
+.key_events .data .desc
+{
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 12px;
+
+    color: rgba(36, 36, 36, .80);
+}
+
+
+.key_events .data .link
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+
+    margin-top: auto;
+    padding-top: 32px;
+
+    letter-spacing: -.21px;
+
+    color: #9c9c9c;
+}
+
+
+.key_events .data .link a
+{
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+.key_events .image
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: calc(50% - 12px);
+    padding: 32px;
+
+    background: #2a282d;
+}
+
+
+.key_events .image img
+{
+    max-width: 100%;
+    max-height: 100%;
+
+    border-radius: 12px;
+}
+
+
+
 /*------------
     Events
 ------------*/

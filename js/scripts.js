@@ -247,6 +247,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		$('html, body').stop().animate({ scrollTop: $activeTabContent.offset().top }, 1000)
 	}
+
+
+	// Key events
+	if (WW < 1280) {
+		$('.key_events .tab_content').removeClass('active')
+		$('.key_events .tabs + .mob_tab_btn').addClass('active')
+
+		$('.key_events .tab_content').removeClass('active')
+		$('.key_events .tabs + .mob_tab_btn + .tab_content').addClass('active')
+	}
+
+
+	$('.key_events .mob_tab_btn').click(function(e) {
+		e.preventDefault()
+
+		$('.key_events .mob_tab_btn').removeClass('active')
+		$(this).addClass('active')
+
+		$('.key_events .tab_content').removeClass('active')
+		$(this).next('.tab_content').addClass('active')
+	})
 })
 
 
@@ -259,6 +280,21 @@ window.addEventListener('resize', function () {
 	if (typeof WW !== 'undefined' && WW != windowW) {
 		// Overwrite window width
 		WW = window.innerWidth || document.clientWidth || BODY.clientWidth
+
+
+		// Key events
+		if (WW < 1280) {
+			$('.key_events .tabs + .mob_tab_btn').addClass('active')
+
+			$('.key_events .tab_content').removeClass('active')
+			$('.key_events .tabs + .mob_tab_btn + .tab_content').addClass('active')
+		} else {
+			$('.key_events .tabs .btn').removeClass('active')
+			$('.key_events .tabs .btn:first-child').addClass('active')
+
+			$('.key_events .tab_content').removeClass('active')
+			$('.key_events #key_events_tab1').addClass('active')
+		}
 
 
 		// Mob. version

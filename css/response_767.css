@@ -294,6 +294,47 @@
 
 
 
+    /*----------------
+        Key events
+    ----------------*/
+    .key_events .mob_tab_btn
+    {
+        padding: 24px;
+
+        border: none;
+    }
+
+
+    .key_events .tab_content
+    {
+        margin-bottom: 12px;
+    }
+
+    .key_events .mob_tab_btn.last + .tab_content
+    {
+        margin-bottom: 0;
+    }
+
+
+    .key_events .data
+    {
+        order: 2;
+    }
+
+
+    .key_events .image
+    {
+        padding: 0;
+    }
+
+
+    .key_events .image img
+    {
+        border-radius: 0;
+    }
+
+
+
     /*-------------------------
         Become co-organizer
     -------------------------*/

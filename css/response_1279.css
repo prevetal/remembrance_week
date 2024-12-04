@@ -268,6 +268,53 @@
 
 
 
+    /*----------------
+        Key events
+    ----------------*/
+    .key_events .tabs
+    {
+        display: none;
+    }
+
+
+    .key_events .mob_tab_btn
+    {
+        display: flex;
+    }
+
+
+    .key_events .mob_tab_btn.active
+    {
+        display: none;
+    }
+
+
+    .key_events .tab_content
+    {
+        margin-bottom: -20px;
+    }
+
+    .key_events .mob_tab_btn.last + .tab_content
+    {
+        margin-bottom: 0;
+    }
+
+
+    .key_events .data
+    {
+        width: 100%;
+        padding: 32px;
+    }
+
+
+    .key_events .image
+    {
+        width: 100%;
+        padding-bottom: 52px;
+    }
+
+
+
     /*------------
         Events
     ------------*/
